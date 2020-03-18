@@ -3,8 +3,6 @@ const express = require('express');
 const helmet = require('helmet');
 const carRouter = require('../router/carRouter');
 
-
-
 const server = express();
 server.use(express.json());
 
